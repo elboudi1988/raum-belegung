@@ -1,0 +1,11 @@
+{
+  "applicationName": "BookApp",
+  "loginUrl": "https://localhost:5001/api/user/AuthenticateTokenOnly",
+  "getRooms": "https://localhost:5001/api/rooms",
+  "getUsers": "https://localhost:5001/api/user/GetallUsers",
+  "getUserData": "https://localhost:5001/api/user/GetUserData",
+  "getRoomRecords": "https://localhost:5001/api/RoomRecord",
+  "getRoomRecordsDate": "https://localhost:5001/api/RoomRecord/date",
+  "postRoomRecord": "https://localhost:5001/api/RoomRecord",
+  "deleteRoomRecord": "https://localhost:5001/api/RoomRecord"
+}

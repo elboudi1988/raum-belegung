@@ -1,0 +1,136 @@
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 20px;
+
+}
+.spinner{
+    
+    position: 'absolute';
+    margin-top: 10%;
+    margin-left: 50%;
+    align-items:  'center';
+    justify-content: 'center';
+
+}
+.customers td th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.customers tr:nth-child(even) {
+    background-color: #f2f2f237;
+}
+
+.customers tr:hover {
+    background-color: rgba(221, 221, 221, 0.326);
+}
+
+.customers th {
+    padding-top: 12px;
+    ;
+    padding-bottom: 12px;
+    text-align: left;
+
+
+}
+
+.customers h3 {
+    text-align: center;
+    padding-top: 50px;
+
+    margin-right: 1%;
+
+    text-decoration-color: black;
+
+
+}
+
+.x-button {
+    background: white;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.x-button:hover {
+    color: #1F2937;
+}
+
+.x-button-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+.edit-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(37, 34, 31, 0.819);
+    border: 1px solid gray;
+    padding: 80px;
+    border-radius: 10px;
+  }
+  
+  .edit-popup form label {
+    color: rgb(255, 255, 255); 
+    display: block;
+    margin-bottom: 10px;
+  }
+  .edit-popup button {
+    margin-right: 10px;
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+ .edit-popup-datepicker{
+    left: 5%;
+    width: 200px; 
+    height: 40px; 
+    padding: 10px; 
+    border: 2px solid rgb(203, 118, 8); 
+    border-radius: 5px; 
+    font-size: 16px; 
+    color: black;
+    background-color: white; 
+  }
+  .edit-popup-select {
+    width: 200px; 
+    height: 45px;
+    padding: 10px; 
+    border: 2px solid rgb(203, 118, 8); 
+    border-radius: 4px;
+    font-size: 16px; 
+    color: black; 
+    background-color: white;
+    appearance: none; 
+  }
+  
+  .edit-popup-select::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid black; 
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    pointer-events: none;
+  }
+  
+  .edit-popup-select:hover {
+    border-color: red; 
+  }
+  
+  
+  
+  
+  
+  
+  
